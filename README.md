@@ -16,33 +16,34 @@ Therefore, it becomes important for cities to be able to predict demand for such
 
 The dataset is called 'bikesharing dataset' and has been acquired from UCI Machine Learning website.
 It has two files:
-  -hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
-	-day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
+ 1. hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
+2. day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
   
  ## Attribute Information 
  
- Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
-	- instant: record index
-	- dteday : date
-	- season : season (1:springer, 2:summer, 3:fall, 4:winter)
-	- yr : year (0: 2011, 1:2012)
-	- mnth : month ( 1 to 12)
-	- hr : hour (0 to 23)
-	- holiday : weather day is holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
-	- weekday : day of the week
-	- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
-	+ weathersit : 
-		- 1: Clear, Few clouds, Partly cloudy, Partly cloudy
-		- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-		- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-		- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
-	- temp : Normalized temperature in Celsius. The values are divided to 41 (max)
-	- atemp: Normalized feeling temperature in Celsius. The values are divided to 50 (max)
-	- hum: Normalized humidity. The values are divided to 100 (max)
-	- windspeed: Normalized wind speed. The values are divided to 67 (max)
-	- casual: count of casual users
-	- registered: count of registered users
-	- cnt: count of total rental bikes including both casual and registered
+ Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv:
+ 
+1. instant: record index
+2. dteday : date
+3. season : season (1:springer, 2:summer, 3:fall, 4:winter)
+4. yr : year (0: 2011, 1:2012)
+5. mnth : month ( 1 to 12)
+6. hr : hour (0 to 23)
+7. holiday : weather day is holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+8. weekday : day of the week
+9. workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
+10. weathersit : 
+		10a: Clear, Few clouds, Partly cloudy, Partly cloudy
+		10b: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+		10c: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+		10d: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+11. temp : Normalized temperature in Celsius. The values are divided to 41 (max)
+12. atemp: Normalized feeling temperature in Celsius. The values are divided to 50 (max)
+13. hum: Normalized humidity. The values are divided to 100 (max)
+14. windspeed: Normalized wind speed. The values are divided to 67 (max)
+15. casual: count of casual users
+16. registered: count of registered users
+17. cnt: count of total rental bikes including both casual and registered
 
 ## Methodology
 
